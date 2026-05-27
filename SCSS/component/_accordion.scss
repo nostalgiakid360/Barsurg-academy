@@ -1,0 +1,148 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/* Sets the background color of the body to blue. Sets font to Rubik */
+
+body {
+  background-color: #fff;
+  font-family: 'europa', sans-serif;
+}
+
+/* Aligns the heading text to the center. */
+ 
+h1 {
+  text-align: center;
+  font-size: 70px;
+}
+
+/* Sets the width for the accordion. Sets the margin to 90px on the top and bottom and auto to the left and right */
+
+.accordion {
+  font-family: europa system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  width: 800px;
+  margin: 30px auto;
+  color: #333;
+  background-color: white;
+  padding: 45px 45px;
+
+  .label{
+    font-family: europa;
+    font-size: 26px;
+  }
+
+  .content{
+    font-family: europa;
+    line-height: 25px;
+    max-width: 600px;
+  }
+}
+
+.accordion .container {
+    position: relative;
+    margin: 5px 10px;
+  }
+  
+  /* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
+  
+  .accordion .label {
+    position: relative;
+    padding: 10px 0;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+
+  .accordion .label::before {
+    content: url(/img/chevron-down.png);
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+  
+  }
+  
+  /* Hides the content (height: 0), decreases font size, justifies text and adds transition */
+  
+  .accordion .content {
+    position: relative;
+    background: white;
+    color: #505050;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 780px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  /* Adds a horizontal line between the contents */
+  
+  .accordion hr {
+    width: 100;
+    margin-left: 0;
+    border: 1px solid grey;
+  }
+
+  .accordion .container.active .content {
+    height: 150px;
+  }
+  
+  /* Changes from plus sign to negative sign once active */
+  
+  .accordion .container.active .label::before {
+    content: url(/img/icons8-chevron-up-26.png);
+    font-size: 30px;
+  }
+
+  /* MAQUEE*/
+.google{
+     width: 150px !important;
+  }
+  .marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 200px;
+    overflow-x: hidden;
+    background-color: #eee;
+    color: #fff;
+   display: flex;
+   align-items: center;
+    margin-bottom: 3rem;
+    padding: 1rem 0;
+  }
+  
+  .track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 10s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+.content{
+    font-size: 30px;
+    img{
+      width: 300px;
+      margin-left: 3rem;
+    }
+}
+
+@media(max-width:756px){
+    .accordion {
+        width: 400px;
+    }
+
+    .content{
+        max-width: 350px;
+    }
+
+   
+}

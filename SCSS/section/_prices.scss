@@ -1,0 +1,115 @@
+
+#pricing{
+    background-color: #5928E5;
+}
+.pricing-section{
+    color: #fbfbfb;
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+
+
+    .card{
+        position: relative;
+       border-radius: 0;
+       margin-left: 10px;
+       color: #4c3093;
+       width: 400px;
+       height: 500px;
+       padding: 1rem 1rem;
+       margin: 0 0.6rem;
+       h3{
+         margin-top: 3rem;
+         margin-bottom: 2rem;
+         text-align: center;
+         font-weight: 900;
+         font-size: 22px;
+         
+       }
+       h4{
+         text-align: center;
+         font-weight: 900;
+        
+       }
+       li{
+         margin-bottom: 1.3rem;
+       }
+
+       .pricing-icon{
+        position: absolute;
+        top: -34px;
+        left: 110px;
+         width: 50px;
+         height: 50px;
+         border: 1px solid orange;
+         border-radius: 100%;
+         background-color: #4c3093;
+         margin-top:40px; 
+         margin: 0 auto;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 2rem;
+
+
+         i{
+            color: #fbfbfb;
+            font-size: 30px;
+            
+
+         }
+         a{
+            margin-bottom: 40px;
+            
+         }
+        }
+         
+         
+         
+       .btn-primary{
+        margin-bottom: 2rem;
+       }
+         
+      
+    }
+    .gold-plan{
+        height: 100%;
+        
+    }
+
+    .regular-card{
+        height: 100%;
+        h4{
+            margin-bottom: 20px;
+        }
+    }
+   
+}
+
+.pink{
+    color: #f6e1f2;
+}
+
+.rated-box{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+ 
+}
+
+.yellow{
+    color: yellow;
+    display: inline;
+}
+.header{
+   
+  text-align: center;
+    color: #f6e1f2;
+}
+
+.header h1{
+  font-size: 40px;
+//   width: 300px;
+
+}

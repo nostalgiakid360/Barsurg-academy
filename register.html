@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registe Page | Home</title>
+    <link rel="icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/registration.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body{
+        overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="container bg-purple">
+          <div class="container flex-end"></div>
+            <div class="form-box shadow-lg">
+       
+                
+                <div class="right-div-form">
+                    <a href="index.html"><img src="img/logo11.png" class="img-fluid" alt=""></a>
+                    <h3 class="text-light-pink">Welcome to Barsurg Portal</h3>
+                    <div class="signin mb-3">
+                        <a href="login.html" class="sign-in login" id="register-login">Sign In</a> |
+                        <a href="register.html" class="signup">Sign Up</a>
+                    </div>
+                    <form action="">
+                        <div class="form-group mb-3">
+                            <label for="floatingInput">NAME</label>
+                            <input type="name" class="form-control" id="full-name" placeholder="Enter your full name">
+                            
+                          </div>
+
+                          <div class="form-group mb-2">
+                            <label for="floatingInput">EMAIL</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            
+                          </div>
+
+                          <div class="form-group m-1">
+                            <label for="floatingInput" class="form-label">CHOOSE YOUR COURSE</label>
+                            <select name="" id="" class="form-select bg-primarys text-light form-control
+                            ">
+                                <option value="" class=" mt-2  mb-2"></option>
+                                <option value="" class=" mt-2  mb-2">SOFTWARE DEVELOPMENT</option>
+                                <option value="" class=" mt-2  mb-2">UX/UI DEVELOPMENT</option>
+                                <option value="">PYTHON</option>
+                                <option value="">MACHINE LEARNING</option>
+                            </select>
+                            
+                            
+                          </div>
+
+                          <div class="form-group mb-2 passwords">
+                            <label for="floatingInput">PASSWORD</label>
+                            <div class="input-boxes">
+                                 <input type="password" class="form-control password" id="password" placeholder="Enter your Password">
+                                 <img src="/img/hidden.png" alt="" id="eyeicon" >
+                                </div>
+                            
+                              <div class="message"></div>
+                            <div class="password-auth d-none" >
+
+                                <ul class="helper-text">
+                                    <li class="length">Must be at least 8 characters long.</li>
+                                    <li class="lowercase">Must contain a lowercase letter.</li>
+                                    <li class="uppercase">Must contain an uppercase letter.</li>
+                                    <li class="special">Must contain a number or special character.</li>
+                                </ul>
+                            
+                            </div>
+                          </div>
+
+                          
+
+                          <div id="remember">
+                            <input type="checkbox" value="lsRememberMe" id="rememberMe"
+                                   style="display: inline-block;">
+                            <label>Accept Terms and condition policy</label>
+                        </div>
+
+                        <div class="button mt-3">
+                            <input type="submit" class="btn btn-warning" id="button" value="Sign Up">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+      <script src="js/bootstrap.bundle.js"></script>
+      <script src="js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registe Page | Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/registration.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        body{
+            overflow: hidden;
+        }
+      </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="container-fluid bg-purple">
+            <div class="form-box shadow-lg mt-5">
+             
+                <div class="right-div-form">
+                    <a href="index.html"><img src="img/logo11.png"  alt=""></a>
+                    <h3 class="pb-3 text-light-pink">Welcome to Barsurg Portal</h3>
+                    <div class="signin mb-3">
+                        <a href="login.html" class="sign-in login" id="login-signin">Sign In</a> |
+                        <a href="register.html" class="signup" id="login-signup">Sign Up</a>
+                    </div>
+                    <form action=""class="needs-validation" novalidate>
+                        
+
+                          <div class="form-group mb-3">
+                            <label for="floatingInput">EMAIL</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            <div class="invalid-password d-none">
+                                password
+                               </div>
+                          </div>
+
+                          <div class="form-group mb-3">
+                            <label for="floatingInput">PASSWORD</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your Password" >
+                            <div class="invalid-password d-none">
+                               password
+                              </div>
+                          </div>
+
+                         
+
+                          <div id="remember">
+                            <input type="checkbox" value="lsRememberMe" id="rememberMe"
+                                   style="display: inline-block;">
+                            <label>Remember me</label>
+                        </div>
+
+                        
+
+                        <div class="button mt-3">
+                            <input type="submit" class="btn btn-warning" id="button" value="Login">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+      <script src="js/bootstrap.bundle.js"></script>
+      <script src="js/register.js"></script>
+</body>
+</html>

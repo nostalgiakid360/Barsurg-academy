@@ -1,0 +1,71 @@
+@use '../custom' as *;
+
+ 
+.btn{
+    border-radius: none !important;
+    padding:0.6rem 1rem !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn-outline-success{
+    border-color: #999;
+    color: #eee;
+    border-radius: 10px;
+    
+    
+    &:hover{
+        background-color:transparent !important;
+        color: $primary-color !important;
+    }
+}
+
+.btn-warning{
+    background-color: $secondaryLight-color !important;
+    color: $primary-color !important;
+    border-radius: 0px;
+    border: none;
+    text-transform: uppercase !important;
+    padding: 1rem 2rem !important ;
+}
+
+
+
+.menu .btn-outline-default{
+    padding: 0.8rem 2rem !important ;
+}
+.btn-outline-default{
+   color:white !important;
+   outline: white;
+   border: 1px solid #eee;
+   margin-left: 0.4rem;
+   border: 1px solid $secondaryLight-color;
+   border-radius: 0px 10px 0 0;
+   padding: 1rem 3rem !important ;
+     &:hover{
+            background-color: $secondaryLight-color !important;
+            color: $primary-color !important; 
+            border-radius: 0px 10px 0 0;
+     }
+     i{
+        margin-left: 20px;
+     }
+
+
+}
+
+.btn-primary{
+    color:white;
+    outline: white;
+    border: 1px solid #eee;
+    margin-left: 0.4rem;
+    border: 1px solid $secondaryLight-color;
+    border-radius: 0;
+    background-color: $primary-color !important;
+    text-transform: uppercase !important;
+
+      &:hover{
+             background-color: transparent !important;
+             color: $primary-color !important; 
+            
+      }
+}

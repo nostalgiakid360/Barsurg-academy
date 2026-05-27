@@ -1,0 +1,145 @@
+// IMPORT BOOTSTRAP 5
+
+@import 'config';
+@import 'utility';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+.banner{
+    background-color: $primary-color;
+    color:whitesmoke;
+        
+}
+body{
+    font-family: montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    background-color: #fff;
+    color: #4c3093 !important;
+    overflow: overlay;
+    height: 300vh;
+}
+
+::-webkit-scrollbar{
+    width:5px;
+    
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+ ::-webkit-scrollbar-thumb{
+    background-color: $primary-color;
+ }
+
+a{
+    text-decoration: none;
+    color:#fff;
+
+}
+img{
+    width: 100%;
+}
+
+.styleDivs{
+    max-width: 500px;
+    height: 100px;
+    background-color: $secondary-color;
+    color: #fff;
+}
+
+
+
+.linkss{
+   cursor: pointer;
+}
+.active{
+    color:#FFD7D7 !important
+}
+.accordion-item{
+    border: none !important;
+}
+
+.accordion-header{
+    border: none !important;
+}
+
+.accordion{
+    border: none;
+}
+
+.accordion-button{
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-button.collapsed {
+    background: blue
+  }
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none !important;
+    border-bottom: 1px solid #4c3093;
+    outline: 0!important;
+    /* I changed the color on this line */
+    /* If you do not want any color, just delete */
+    box-shadow: 0 0 0 0.1rem rgba(39, 156, 136, 0.25) !important;
+ }
+// $accordion-padding-y:  1.5rem ;
+// $accordion-padding-x:  1.5rem ;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// $accordion-button-icon:    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d = 'M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h.3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'></svg>")  ;
+// $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") ;
+
+// $accordion-button-focus-box-shadow:      none !default;
+// .accordion-item h3 {
+//     color: red  !important;
+//  }
+
+//  $accordion-bg:  none !default;
+
+
+ 
+// // scss-docs-start accordion-variables
+// $accordion-padding-y:                     1rem !default;
+// $accordion-padding-x:                     1.25rem !default;
+// $accordion-color:                         var(--#{$prefix}body-color) !default;
+// $accordion-bg:                            $body-bg !default;
+// $accordion-border-width:                  $border-width !default;
+// $accordion-border-color:                  var(--#{$prefix}border-color) !default;
+// $accordion-border-radius:                 $border-radius !default;
+// $accordion-inner-border-radius:           subtract($accordion-border-radius, $accordion-border-width) !default;
+
+// $accordion-body-padding-y:                $accordion-padding-y !default;
+// $accordion-body-padding-x:                $accordion-padding-x !default;
+
+// $accordion-button-padding-y:              $accordion-padding-y !default;
+// $accordion-button-padding-x:              $accordion-padding-x !default;
+// $accordion-button-color:                  $accordion-color !default;
+// $accordion-button-bg:                     var(--#{$prefix}accordion-bg) !default;
+// $accordion-transition:                    $btn-transition, border-radius .15s ease !default;
+// $accordion-button-active-bg:              tint-color($component-active-bg, 90%) !default;
+// $accordion-button-active-color:           shade-color($primary, 10%) !default;
+
+// $accordion-button-focus-border-color:     $input-focus-border-color !default;
+// $accordion-button-focus-box-shadow:       $btn-focus-box-shadow !default;
+
+// $accordion-icon-width:                    1.25rem !default;
+// $accordion-icon-color:                    $accordion-button-color !default;
+// $accordion-icon-active-color:             $accordion-button-active-color !default;
+// $accordion-icon-transition:               transform .2s ease-in-out !default;
+// $accordion-icon-transform:                rotate(-180deg) !default;
+
+// $accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !default;
+// $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !default;
+// // scss-docs-end accordion-variables

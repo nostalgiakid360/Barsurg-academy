@@ -1,0 +1,40 @@
+#paralle-box{
+    background-image: url(/img/bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralle{
+    color:#fff;
+    height: 250px;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+   padding: 2rem 2rem;
+
+   h2{
+    font-weight: 900;
+  
+   }
+   p{
+    font-weight: 400;
+    color: #f1f1f1;
+    text-align: center;
+   }
+
+  
+    .btn-outline-default{
+        padding: 1rem 2rem !important;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        border-radius: 0px;
+         &:hover{
+            color: #341f6a;
+        }
+     }
+   
+}

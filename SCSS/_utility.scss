@@ -1,0 +1,22 @@
+
+
+.container{
+    max-width: 1000px;
+    padding: 0 40px;
+   
+  
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 50px;
+}
+
+.divider-margin{
+    margin: 10rem 0; 
+   
+}
+
+

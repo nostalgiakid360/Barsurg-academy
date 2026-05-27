@@ -1,0 +1,117 @@
+.instructors-middle-box{
+    color:blue
+}
+
+
+.card{
+    border-radius: 0px;
+
+}
+
+.instructors-middle-box .card{
+    height: 300px;
+}
+
+
+
+.grid-span{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 30px;
+    
+}
+
+
+ #box1{
+    background-color: aqua;
+    background-image: url(/img/instructors_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+   
+   
+}
+
+#box2{
+    background-image: url(/img/testimonials/black_in.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+}
+
+#box3{
+  
+    background-image: url(/img/testimonials/client-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+}
+
+
+
+
+#box4{
+    background-image: url(/img/instructors_2.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+}
+
+#box5{
+    background-image: url( /img/testimonials/client-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+}
+
+
+#box6{
+    color: aliceblue;
+    background-image: url(/img/instructors_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+}
+
+.instructors-container {
+   color:#4C3093;
+   margin-top: 8rem;
+   margin-bottom: 8rem;
+}
+
+
+.instructor_text{
+  display: flex;
+  visibility: hidden;
+  justify-content: end;
+  flex-direction: column;
+  height: 400px;
+  color:#fff;
+  padding-bottom: 2rem;
+  h3{
+     margin: 0;
+   }
+   p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    }
+ 
+
+}
+.card:hover{
+    .instructor_text{
+      visibility: visible;
+      background-color: rgba(76, 48, 147,0.7);
+      
+      cursor: pointer;
+    }
+ }

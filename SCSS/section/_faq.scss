@@ -1,0 +1,45 @@
+
+.faq{
+    color:#999;
+}
+
+.faq h1{
+  color: #4C3093;
+}
+
+.accordion-body ul{
+    list-style: none;
+}
+
+.accordion-body{
+   text-align: left;
+}
+
+.accordion-body i{
+  margin-right: 1rem;
+ 
+}
+.accordion-body li{
+ margin-bottom: 1rem;
+ 
+}
+
+.accordion-button{
+   border: none;
+   color:#4C3093
+}
+
+.accordion-button:focus{
+  background-color: transparent;
+}
+
+.accordion-header{
+border: none !important;
+}
+
+
+.accordion-body i:hover{
+   transition: none;
+   transform: none;
+  
+}

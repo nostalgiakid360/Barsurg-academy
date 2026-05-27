@@ -1,0 +1,30 @@
+@use 'custom';
+
+@use 'config';
+@use 'utility';
+@use 'fontawesome';
+
+// IMPORT THE COMPONENT
+@use 'component/forms';
+@use 'component/accordion';
+@use 'component/alert';
+@use 'component/animation';
+@use 'component/button';
+@use 'component/mixin';
+@use 'component/navbar';
+@use 'component/typography';
+@use 'component/modal';
+@use 'component/media';
+
+// IMPORT THE SECTIONS
+
+@use 'section/about';
+@use 'section/call-to-action';
+@use 'section/courses';
+@use 'section/faq';
+@use 'section/footer';
+@use 'section/header';
+@use 'section/instructors';
+@use 'section/prices';
+@use 'section/showcase';
+@use 'section/paralle'

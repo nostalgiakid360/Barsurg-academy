@@ -1,0 +1,317 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+  overflow: hidden;
+}
+img{
+  width: 100%;
+}
+.main-div{
+    background-size: cover;
+    background-position: top left;
+    font-size: 16px;
+    font-family: europa,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    width: 100%;
+    background: #5524ea;
+  
+}
+
+.input-boxes{
+  position: relative;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin: 0;
+}
+
+.input-boxes img{
+  position:absolute;
+  top: 0;
+  right: 1rem;
+   width: 20px !important;
+   height: 20px !important;
+   cursor: pointer;
+}
+
+.main-div a{
+  text-decoration: none;
+}
+
+.main-div a:hover{
+  color:#fff;
+
+}
+
+.left-div-content {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.p_yellow{
+  color: yellow;
+}
+
+
+.bg-purple{
+    background-color: #7550e4;
+    
+}
+.container-fluid{
+    height: 100vh;
+    padding: 2rem ;
+}
+.form-box{
+ 
+    grid-template-columns: 1fr 1fr;
+    max-width:500px;
+    margin:  0 auto;
+    padding:  0;
+  
+
+
+  
+}
+
+.text-light-pink{
+  color:#FFD7D7
+}
+
+.left-div-content{
+    background-color:#FEE7BB ;
+    padding: 4rem 5rem;
+    color:#5524ea;
+   
+}
+
+.left-div-content li{
+   margin-bottom: 15px;
+}
+
+.left-div-content p{
+   padding: 0;
+   margin: 0;
+}
+
+
+.right-div-form{
+  position: relative;
+    background-color:#5524ea ;
+    padding: 2.5rem 3rem;
+    color: rgb(225, 232, 244);
+    border:10px solid rgba(77, 33, 208, 0.8) ;
+   
+}
+
+.right-div-form h3{
+    text-align: center;
+    color: #eee;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input{
+    background-color: transparent  !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(160, 126, 235) !important;
+    border-radius: 1px  !important;
+    color:  rgb(231, 236, 246) !important;
+    outline: none;
+   
+}
+
+.form-group input[type = "email"]{
+  background-color: transparent  !important;
+}
+
+.form-group input[type = "email"]:focus{
+   background-color: transparent !important;
+   outline-color: transparent;
+}
+
+
+input:focus {
+    border:none !important;
+    outline: none !important;
+    background-color: transparent;
+  }
+
+  input{
+    border: none !important;
+    background-color: transparent;
+    
+  }
+
+  .form-group label{
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  
+  .form-group input::placeholder{
+    color:rgb(124, 166, 250) !important ;
+    padding: 0 !important;
+  }
+
+  a{
+    text-decoration: none;
+
+  }
+
+  a:link{
+    color:#fff
+  }
+
+  a:active{
+    color:rgb(160, 126, 235) !important
+  }
+
+.signin a{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.sign-in {
+  color: yellow;
+}
+
+.signup {
+  color: #eee
+}
+
+.signin #register-login {
+   font-weight: 400;
+  
+}
+
+
+.signin #login-signup{
+  font-weight: 400;
+  
+}
+
+
+.alert{
+   width: 60%;
+   z-index: 00000;
+   position: absolute;
+   top:1rem;
+   right:11rem
+}
+
+.password-auth{
+  margin-top: 1rem;
+
+ 
+}
+.password{
+   
+}
+.showbox{
+  display: block;
+}
+
+
+/* LOGIN PASSWORD VALIDATION */
+.passwords input[type="text"],
+.passwords input[type="password"] {
+  display: block;
+
+  height: 36px;
+  margin-bottom: 8px;
+  padding: 0 6px 0 10px;
+  border: 2px solid rgb(232, 237, 232);
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+ul.helper-text {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 22px;
+  color:rgb(251, 130, 130);
+  
+  
+}
+li.valid {
+  color: greenyellow;
+}
+
+ input.valid {
+ border: 2px solid greenyellow; }
+
+ .login a{
+    color: yellowgreen;
+ }
+
+/* Email validation */
+#form.invalid .input-box::before {
+  content: '';
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  width: 24px;
+  height: 24px;
+  background: url(https://fadzrinmadu.github.io/hosted-assets/email-validation-check-using-javascript/invalid.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#form.valid .input-box::before {
+  content: '';
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  width: 24px;
+  height: 24px;
+  background: url(https://fadzrinmadu.github.io/hosted-assets/email-validation-check-using-javascript/valid.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+/* select */
+.bg-primarys{
+  background-color: #5524ea !important;
+  color: #FEE7BB;
+  border: none !important;
+  border-bottom:1px solid #8487b7 !important;
+  border-radius: 2px !important;
+}
+
+.bg-primarys select::placeholder{
+  color: white !important;
+}
+
+.bg-primarys select{
+  outline: #5524ea !important;
+  
+ }
+
+ .bg-primarys select:focus{
+  background-color: #0f0a1c !important;
+  
+ }
+
+ .bg-primarys:focus{
+  outline:none
+ }
+ .form-control:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+  border-bottom:1px solid #546d88 !important
+}
+
+.right-div-form img{
+ 
+   width: 90px;
+   height: 60px;
+   margin-left: 8rem;
+   margin-bottom: 0.8rem;
+   margin-top:0
+   
+   
+}

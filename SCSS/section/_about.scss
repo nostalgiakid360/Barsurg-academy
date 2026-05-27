@@ -1,0 +1,439 @@
+@use '../custom' as *;
+
+
+
+.about-img img{
+  width: 400px;
+  height: 300px;
+
+
+}
+.about__secton-2_content p{
+    padding: 0 ;
+    margin: 0 !important;
+}
+
+.about_header h1{
+    text-align: left;
+    font-size: 60px;
+    line-height: 65px;
+}
+.content-about-text {
+    text-align: left;
+    color: rgb(37, 30, 79);
+    line-height: 40px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    padding: 2rem 0;
+    height: 900px;
+    overflow: hidden;
+
+    
+}
+.about-content-area{
+   background-color: #4c3093;
+}
+
+.header-about{
+    display: flex;
+    justify-content: space-between;
+}
+.header-about img{
+   width: 300px;
+   height: 350px;
+}
+
+.content-about-text  h2 {
+    text-align: center;
+    font-size:40px;
+    font-weight: 600;
+}
+.card-container{
+    display: grid;
+    width: 100% ;
+    gap: 30px;
+    max-width: 1300px;
+    // grid-template-columns: repeat(4,1fr);
+    grid-auto-flow: column;
+    grid-auto-columns: 28%;
+    overflow: auto;
+
+    height: 100%;
+    padding-bottom:  4rem;
+    
+   
+    
+ }
+
+ .show{
+    display: block;
+ }
+
+ .card{
+    margin: 0;
+    
+ }
+
+// .about-content-area::before,
+// .about-content-area::after{
+//     content :'';
+//     position:absolute;
+//     height: 100px;
+//     bottom: -250px;
+//     right:0;
+//     left: 0;
+//     background-color: #ffffff;
+//     transform: skewY(1.5deg);
+    
+    
+   
+//  }
+
+ .container-fluids{
+    width: 100%;
+    background-color: #ffffff !important;
+    color: #221641;
+    padding: 4rem 0 !important;
+    height: 900px;
+ }
+
+ 
+.container-fluids h3{
+    color:#5c4040;
+    font-size: 30px;
+    font-weight: 400;
+}
+.content-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+.content-area h1{
+    color: #4c3093;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+
+    
+    
+}
+
+.main-content-about{
+    background: url(../../img/img_gradient.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+
+   
+    
+   
+}
+
+.main-content-about h3{
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 30px;
+   width: 600px;
+  
+}
+
+.content_about{
+  height: 600px;
+}
+
+.main-content-about p{
+    
+    font-size: 15px;
+    line-height: 16px;
+ 
+ }
+#more__about-section{
+    background-color: rgb(255, 236, 62);
+    height: 100%;
+    color: #000 !important;
+    margin: 0;
+}
+
+.about_content p{
+    padding-right: 5rem;
+}
+.about-main-page{
+    background-color: #5928E5;
+    max-width: 100%;
+    color:black
+}
+
+.content-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 5rem 5rem;
+    gap: 40px;
+   
+}
+
+.social-icon-box i{
+ font-size: 50px;
+ color: #F0F1F3;
+}
+.social-icon-box {
+    background-color: #4c3093;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+   
+   }
+
+   .social-icon-box:hover {
+      background-color:#fce0e0;
+   }
+
+   .social-icon-box p {
+      margin-top: 1rem ;
+   }
+
+// .about_box{
+//     display: grid !important;
+//     grid-template-columns: 1fr 3fr !important;
+//     gap: 40px;
+// }
+
+.title-box{
+ margin: 4rem 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height:30px;
+ 
+}
+.about_header h1{
+  width:80%;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.grid-block{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 6rem 0  !important;
+    padding: 3rem;
+    color:#140f3d;
+    gap: 40px;
+}
+
+.grid-block p{
+    line-height: 2rem;
+    
+}
+
+.content_text h1{
+     width: 600px;
+     font-size: 50px;
+}
+
+.small-line-box{
+    width: 80px;
+    height: 3px;
+    background-color:#1e133b;
+}
+.title-box p{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+letter-spacing: 5px;
+color: #1e133b;
+
+}
+
+
+
+.about_box{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.about_content h1{
+    width: 600px;
+    font-weight: 600;
+    font-size: 60px;
+    color: #573ca2;
+}
+
+.about_content p{
+  margin-top: 2rem;
+  line-height: 35px;
+  color: #1f1539 !important;
+}
+
+.about_content img{
+    width: 600px;
+    height: 600px;
+    margin-bottom: 2rem;
+    
+}
+#about{
+   width: 100%;
+}
+
+.content__img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+   left: 8rem;
+    margin-top:-5rem ;
+    margin-right:8rem;
+
+    img{
+        position: absolute;
+        animation: rotate360 15s linear infinite;
+      
+    }
+    
+}
+
+
+
+.about__right-text p{
+    width: 80%;
+    line-height: 40px;
+
+}
+
+
+.content__about-text{
+    color: #1f1539 !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.cards{
+    background-color: #2a1d4e;
+    border-radius: 50px;
+}
+.about-content{
+    height: 900px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+.content-text{
+    background-color: #4c3093;
+    color: #F0F1F3;
+    padding: 4rem;
+    line-height: 30px;
+    border-radius: 0px 60px 0px 0px;
+    margin-top: -11rem;
+    z-index: 3;
+    height: auto;
+   
+    
+}
+
+.content-text h1{
+    width: 800px;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 2rem 0;
+
+}
+
+.content-text p{
+    
+    margin-bottom:  2rem;
+    margin-top:  -0.9rem;
+
+}
+
+
+.card__container{
+    display: flex;
+}
+
+.card_box{
+  border:  1px solid #FFF;
+  margin-right: 1rem;
+  padding: 2.5rem;
+  border-radius: 0px 60px 0px 60px;
+}
+
+.card_box p{
+   margin: 0;
+}
+.card_box i{
+    font-size: 4rem;
+    margin-bottom: 0.8rem;
+ 
+}
+
+.card_box i:hover{
+    transition: none;
+    transform: none;
+}
+
+.main-content-about h1{
+    font-weight: 800;
+}
+
+.card_box a{
+    text-decoration: none;
+    color: #F0F1F3;
+    margin-top: 2rem !important;
+}
+
+
+.card_box a i{
+ font-size: 20px;
+}
+
+.about__secton-2{
+    margin-top: 4rem;
+    padding: 5rem;
+}
+
+
+.about__secton-2_p p{
+   font-size: 12px !important;
+}
+
+
+
+.about__secton-2_img img{
+     width: 600px;
+     height: 400px;
+}
+
+
+.about-boxes{
+    display: flex;
+    max-width: 1300px;
+    flex-wrap: wrap;
+}
+
+.boxes{
+
+  margin: 0.5rem;
+  background-color: #F2F012;
+  color: #231e48;
+  width: 300px;
+  height: 100px;
+  font-weight: 800;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  text-align: center;
+
+}
+
+.boxes p{
+    line-height: 25px;
+    font-size: 22px;
+}
