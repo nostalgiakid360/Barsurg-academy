@@ -21435,7 +21435,7 @@ body {
   border: 1px solid #ddd;
   border-radius: 15px;
   left: 30%;
-  background: url(/img/master_course.jpg);
+  background: url(img/master_course.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22332,7 +22332,7 @@ i:hover {
 
 #box1 {
   background-color: aqua;
-  background-image: url(/img/instructors_3.jpg);
+  background-image: url(img/instructors_3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22340,7 +22340,7 @@ i:hover {
 }
 
 #box2 {
-  background-image: url(/img/testimonials/black_in.jpg);
+  background-image: url(img/testimonials/black_in.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22348,7 +22348,7 @@ i:hover {
 }
 
 #box3 {
-  background-image: url(/img/testimonials/client-1.jpg);
+  background-image: url(mg/testimonials/client-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22356,7 +22356,7 @@ i:hover {
 }
 
 #box4 {
-  background-image: url(/img/instructors_2.jpg);
+  background-image: url(img/instructors_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22364,7 +22364,7 @@ i:hover {
 }
 
 #box5 {
-  background-image: url(/img/testimonials/client-3.jpg);
+  background-image: url(img/testimonials/client-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22373,7 +22373,7 @@ i:hover {
 
 #box6 {
   color: aliceblue;
-  background-image: url(/img/instructors_1.jpg);
+  background-image: url(img/instructors_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
