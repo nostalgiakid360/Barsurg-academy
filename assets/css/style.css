@@ -35,7 +35,7 @@ body {
   font-family: montserrat, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
   background-color: #fff;
   color: #4c3093 !important;
-  overflow: overlay;
+  overflow:visible;
   height: 300vh;
 }
 
@@ -21501,6 +21501,10 @@ button {
  /* body{
    overflow: hidden;
  } */
+
+ .showcase{
+  height: 300px !important;
+ }
   .showcase-button-div a{
     font-size: 14px !important;
   }
@@ -21544,6 +21548,20 @@ button {
   }
 }
 @media (max-width: 589px) {
+    .about__right-text{
+      text-align: center !important;
+      width: 550px !important;
+    }
+
+    .about_header h1 {
+    text-align: center !important;
+    font-size: 20px;
+    line-height: 20px !important;
+}
+  .grid-block{
+    margin:3rem 0;
+   text-align:center !important
+}
   .showcase{
     width: 500px;
   }
@@ -21570,7 +21588,7 @@ button {
     bottom: -1rem;
   }
   .showcase {
-    height: 900px !important;
+    height: 750px !important;
   }
   .showcase-area {
     height: 700px !important;
@@ -21666,6 +21684,7 @@ button {
   }
   .about_header h1 {
     font-size: 25px !important;
+    line-height: 25px !important;
     padding: 0;
     margin: 0;
     width: 200px;
@@ -21747,6 +21766,15 @@ button {
 .about-img img {
   width: 400px;
   height: 300px;
+}
+
+.content__img {
+ 
+ display: none;
+}
+.content__img img {
+  position: absolute;
+  animation: rotate360 15s linear infinite;
 }
 
 .about__secton-2_content p {
