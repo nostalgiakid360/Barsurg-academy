@@ -21285,7 +21285,7 @@ h1 {
   border-radius: 0px;
   border: none;
   text-transform: uppercase !important;
-  padding: 1rem 2rem !important;
+  padding: 11px 2rem !important;
 }
 
 .menu .btn-outline-default {
@@ -21501,6 +21501,27 @@ button {
  /* body{
    overflow: hidden;
  } */
+  .showcase-button-div a{
+    font-size: 14px !important;
+  }
+  .showcase-button-div {
+  justify-content: center !important;
+  }
+  .btn-outline-default{
+     margin:0.5rem !important;
+     padding: 1rem 0.4rem;
+     
+  }
+  .btn-warning{
+    padding: 1rem 0 !important;
+  }
+  .showcase-text{
+     text-align: center;
+  }
+
+  .showcase-text h1{
+     text-align: center !important;
+  }
  .showcase , .showcase-area{
    width: 100%;
  }
@@ -21514,7 +21535,7 @@ button {
   }
   .btn {
     margin-bottom: 1.5rem !important;
-    margin-left: 3rem !important;
+    margin-left: 1rem !important;
     font-size: 1em !important;
   }
   .top-banner {
@@ -21568,8 +21589,10 @@ button {
 
   .showcase-text h1 {
     width: 450px !important;
-    font-size: 50px !important;
+    font-size: 45px !important;
     line-height: 45px !important;
+    padding-left: 1rem ;
+     padding-right: 1rem ;
   }
   .content-area h1 {
     z-index: 3;
@@ -21589,11 +21612,13 @@ button {
   }
   .showcase-button-div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .showcase-button-div a {
     padding: 0.7rem 1.5rem !important;
     margin: 0;
+    font-size: 12px;
+    line-height: 14px;
   }
   .content-area .grid {
     grid-template-columns: 1fr;
@@ -22561,27 +22586,29 @@ i:hover {
 }
 
 .showcase-text {
-  padding-top: 11rem;
+  padding-top: 10rem;
   padding-left: 0;
+
 }
 
 
 .showcase-text p {
   color: #FFD7D7;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 16px;
   margin: 0;
   letter-spacing: 2px ;
 }
 .showcase-text h1 {
-  font-family: "Boldonse", "system-ui, -apple-system, BlinkMacSystemFont, " Segoe UI ", Roboto, Oxygen, Ubuntu, Cantarell, " Open Sans ", " Helvetica Neue ", sans-serif" !important;
+  font-family: poppins, "system-ui, -apple-system, BlinkMacSystemFont, " Segoe UI ", Roboto, Oxygen, Ubuntu, Cantarell, " Open Sans ", " Helvetica Neue ", sans-serif" !important;
   font-weight: 800;
   font-size: 60px;
   text-transform: uppercase;
-  line-height: 65px;
+  line-height: 70px;
   width: 460px;
   text-align: left;
+
 }
 .showcase-text a {
   margin-top: 1rem;
@@ -22611,7 +22638,7 @@ i:hover {
 }
 
 .p-yellow {
-  letter-spacing: 1px;
+  letter-spacing: 0px !important;
   font-size: 15px !important;
   margin-bottom: 0;
   margin-top: 0.7rem;
