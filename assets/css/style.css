@@ -21173,7 +21173,7 @@ h1 {
 }
 
 .accordion .label::before {
-  content: url(/img/icons8-chevron-down-30.png);
+  content: url(../../img/icons8-chevron-down-30.png);
   color: #FFF !important;
   position: absolute;
   top: 50%;
@@ -21208,7 +21208,7 @@ h1 {
 
 /* Changes from plus sign to negative sign once active */
 .accordion .container.active .label::before {
-  content: url(/img/icons8-chevron-up-26.png);
+  content: url(../../img/icons8-chevron-up-26.png);
   font-size: 20px !important;
 }
 
@@ -21435,7 +21435,7 @@ body {
   border: 1px solid #ddd;
   border-radius: 15px;
   left: 30%;
-  background: url(img/master_course.jpg);
+  background: url(../../img/master_course.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22211,7 +22211,7 @@ img{
 }
 .accordion-body {
   position: relative;
-  background-image: url(/img/bg_footer.jpg);
+  background-image: url(../../img/bg_footer.jpg);
   background-size: cover;
   overflow: hidden;
   /* padding: 2rem 0; */
@@ -22332,7 +22332,7 @@ i:hover {
 
 #box1 {
   background-color: aqua;
-  background-image: url(img/instructors_3.jpg);
+  background-image: url(../../img/instructors_3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22340,7 +22340,7 @@ i:hover {
 }
 
 #box2 {
-  background-image: url(img/testimonials/black_in.jpg);
+  background-image: url(../../img/testimonials/black_in.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22348,7 +22348,7 @@ i:hover {
 }
 
 #box3 {
-  background-image: url(mg/testimonials/client-1.jpg);
+  background-image: url(../../img/testimonials/client-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22356,7 +22356,7 @@ i:hover {
 }
 
 #box4 {
-  background-image: url(img/instructors_2.jpg);
+  background-image: url(../../img/instructors_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22364,7 +22364,7 @@ i:hover {
 }
 
 #box5 {
-  background-image: url(img/testimonials/client-3.jpg);
+  background-image: url(../../img/testimonials/client-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22373,7 +22373,7 @@ i:hover {
 
 #box6 {
   color: aliceblue;
-  background-image: url(img/instructors_1.jpg);
+  background-image: url(../../img/instructors_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22443,9 +22443,7 @@ i:hover {
   text-align: center;
   font-weight: 900;
 }
-.pricing-section .card ul {
-   
-}
+
 .pricing-section .card li {
   margin-bottom: 1.3rem;
 }
@@ -22512,7 +22510,7 @@ i:hover {
 .showcase {
   font-family: "Libre Baskerville", "Helvetica Neue", Arial, Verdana, sans-serif !important;
   background-color: #5928E5;
-  background-image: url(/img/bg.jpg);
+  background-image: url("../../img/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -22615,8 +22613,8 @@ i:hover {
 }
 
 #paralle-box {
-  background-image: url(/img/bg.jpg);
-  background-attachment: fixed;
+  background-image: url("../../img/bg.jpg");
+    background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
