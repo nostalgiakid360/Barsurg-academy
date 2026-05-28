@@ -21498,6 +21498,16 @@ button {
 }
 
 @media (max-width: 40rem) {
+ /* body{
+   overflow: hidden;
+ } */
+ .showcase , .showcase-area{
+   width: 100%;
+ }
+  .container {
+    width: 100%;
+    margin: 0 !important;
+  }
   .modal {
     width: 400px;
     left: 10%;
@@ -21509,12 +21519,16 @@ button {
   }
   .top-banner {
     font-size: 14px;
+    width: 100%;
   }
 }
 @media (max-width: 589px) {
+  .showcase{
+    width: 500px;
+  }
   .container {
-    width: 100%;
-    margin: 0 !important;
+    width: 500px;
+    margin: 0 auto !important;
   }
   .pricing-section {
     flex-direction: column;
@@ -21539,6 +21553,7 @@ button {
   }
   .showcase-area {
     height: 700px !important;
+    grid-template-columns: 1fr;
   }
   .showcase::before,
   .showcase::after {
@@ -21549,6 +21564,13 @@ button {
   }
   .showcase-text {
     margin: 0 auto;
+  }
+
+  .showcase-text h1 {
+    font-family:"Boldonse", system-ui ;
+    width: 450px !important;
+    font-size: 50px !important;
+    line-height: 45px !important;
   }
   .content-area h1 {
     z-index: 3;
@@ -22554,7 +22576,7 @@ i:hover {
   letter-spacing: 2px ;
 }
 .showcase-text h1 {
-  font-family: integralCF, "system-ui, -apple-system, BlinkMacSystemFont, " Segoe UI ", Roboto, Oxygen, Ubuntu, Cantarell, " Open Sans ", " Helvetica Neue ", sans-serif" !important;
+  font-family: Boldonse, "system-ui, -apple-system, BlinkMacSystemFont, " Segoe UI ", Roboto, Oxygen, Ubuntu, Cantarell, " Open Sans ", " Helvetica Neue ", sans-serif" !important;
   font-weight: 800;
   font-size: 60px;
   text-transform: uppercase;
